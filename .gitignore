@@ -1,2 +1,10 @@
 node_modules
 dist
+
+# Ignore temp files
+*.swp
+*~
+
+
+# Ignore error files
+yarn-error.log
