@@ -1,0 +1,14 @@
+{
+  "name": "electron-ts-base",
+  "version": "1.0.0",
+  "description": "A base config for Electron with TypeScript and React",
+  "main": "dist/main.js",
+  "author": "Marco Antônio",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc main.ts --outDir dist && electron ."
+  },
+  "dependencies": {
+    "electron": "^1.8.2"
+  }
+}
