@@ -1,7 +1,7 @@
 {
-  "name": "pomodoro",
+  "name": "electron-ts-base",
   "version": "1.0.0",
-  "description": "A pomodoro by Noseversity",
+  "description": "A base config for Electron with TypeScript and React",
   "main": "main.js",
   "author": "Marco Antônio",
   "license": "MIT",
