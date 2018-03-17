@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc main.ts --outDir .",
-    "start": "yarn compile && electron .",
+    "start": "yarn build:frontend && yarn compile && electron .",
     "clean": "rm -rf builds/*",
     "build:frontend": "cd frontend && yarn && yarn build && cd ..",
     "build": "yarn build:frontend && yarn compile && yarn clean && node ./build.js",
