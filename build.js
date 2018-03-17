@@ -8,7 +8,7 @@ const config = {
   arch: 'x64',
   asar: false,
   icon: path.resolve(__dirname, 'images/icon'),
-  name: 'Pomodoro',
+  name: 'DevDocs',
   overwrite: true,
   ignore: ['node_modules']
 }
